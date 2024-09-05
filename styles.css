@@ -1,0 +1,29 @@
+* {
+    background-color: blanchedalmond;
+}
+
+body, footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+a {
+    color:darkgreen;
+}
+
+.caption {
+    margin: 0;
+}
