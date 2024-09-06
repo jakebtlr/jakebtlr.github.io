@@ -1,5 +1,6 @@
 * {
     background-color: blanchedalmond;
+    color: darkgreen;
 }
 
 body, footer {
@@ -16,14 +17,19 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-footer {
-    margin-top: 350px;
-}
-
 a {
-    color:darkgreen;
+    color:black;
 }
 
 .caption {
     margin: 0;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.pbb {
+    font-size: x-small;
 }
