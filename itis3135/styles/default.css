@@ -1,0 +1,35 @@
+body {
+    background-color: #F4EBD9;
+    color: #77685D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Luminari, fantasy;
+    color: #483D3F;
+    text-align: center;
+}
+
+a {
+    color: #058ED9;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+
