@@ -1,43 +1,51 @@
 html {
     background-color: white;
-}
-
-img {
+ }
+ 
+ 
+ img {
     height: 400px;
     width: 400px;
-}
-
-h1 {
+ }
+ 
+ 
+ h1 {
     font-family: Papyrus, fantasy;
-}
-
-h2 {
+ }
+ 
+ 
+ h2 {
     font-family: "Comic Sans MS", sans-serif;
-}
-
-h3 {
+ }
+ 
+ 
+ h3 {
     font-family: Times, serif;
-    
-}
-
-ul {
+   
+ }
+ 
+ 
+ ul {
     text-align: center;
     color: aqua;
-}
-
-p {
+ }
+ 
+ 
+ p {
     text-align: center;
     margin-right: 10px;
     margin-left: 75px;
     background-color: chartreuse;
     color: white;
-}
-
-p:nth-of-type(4) {
+ }
+ 
+ 
+ p:nth-of-type(4) {
     border-right-style: solid;
     border-left-style: dashed;
     border-top-style: groove;
     border-bottom-style: dotted;
     border-width: 10px;
     border-color: black;
-}
+ }
+ 
