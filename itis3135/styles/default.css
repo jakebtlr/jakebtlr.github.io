@@ -38,4 +38,39 @@ p {
     margin-left: 100px;
 }
 
+form {
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 23px;
+}
 
+ul {
+    list-style: none;
+}
+
+form input {
+    margin-bottom: 5px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+form label {
+    margin-bottom: 8px;
+}
+
+#formButton {
+    background-color: darkslategrey;
+    color: bisque;
+}
+
+::placeholder {
+    color: bisque;
+}
+
+#nameInput {
+    width: 75px;
+}
+
+input[name="phoneNumber"] {
+    width: 76px;
+}

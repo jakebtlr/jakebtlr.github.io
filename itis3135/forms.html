@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forms</title>
+		<meta charset="utf-8">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles/default.css">
+	</head>
+	<body>
+		<header>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>Activity #3 - HTML Form - Company</h2>
+			<form>
+                <label for="fName">First Name:</label>
+                <input id="nameInput" type="text" placeholder="Ex. John" name="fName" required><br>
+                <label for="lName">Last Name:</label>
+                <input id="nameInput" type="text" placeholder="Ex. Doe" name="lName" required><br>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phoneNumber"><br>
+                <label for="email">Email Address:</label>
+                <input type="email" placeholder="johndoe@abc.com" name="email"><br>
+                <label for="genNum">What Generation is Your 4runner?</label><br>
+                <ul name="genNum">
+                    <li><input type="checkbox"><label for="first">1st Gen</label></li>
+                    <li><input type="checkbox"><label for="second">2nd Gen</label></li>
+                    <li><input type="checkbox"><label for="third">3rd Gen</label></li>
+                    <li><input type="checkbox"><label for="fourth">4th Gen</label></li>
+                    <li><input type="checkbox"><label for="fifth">5th Gen</label></li>
+                </ul>
+                <label for="year">What Year is Your 4runner?</label>
+                <select name="year">
+                    <option value="1984">1984</option>
+                    <option value="1985">1985</option>
+                    <option value="1986">1986</option>
+                    <option value="1987">1987</option>
+                    <option value="1988">1988</option>
+                    <option value="1989">1989</option>
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select><br>
+                <label for="trim">What trim is your 4runner?</label><br>
+                <ul>
+                    <li><input type="radio"><label for="sr5">SR5</label></li>
+                    <li><input type="radio"><label for="trail">Trail/TRD Off-Road</label></li>
+                    <li><input type="radio"><label for="trdPro">TRD Pro</label></li>
+                    <li><input type="radio"><label for="trdSport">TRD Sport/Limited</label></li>
+                    <li><input type="radio"><label for="limited">Limited</label></li>
+                </ul>
+                <input id="formButton" type="submit" value="Submit">
+                <input id="formButton" type="reset" value="Clear Form">
+            </form>
+		</main>
+		<footer>
+			<div data-include="components/footer.html"></div>
+		</footer>
+		<script src="scripts/include.js"></script>
+	</body>
+</html>
