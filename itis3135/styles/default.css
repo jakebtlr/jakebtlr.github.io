@@ -81,6 +81,10 @@ main {
     margin: 0 auto;
 }
 
+figcaption {
+    text-align: center;
+}
+
 @media screen and ( min-width: 981px ) and ( max-width: 1400px ) {
     #colorbox {
         background-color:yellow;
