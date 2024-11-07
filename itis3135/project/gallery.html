@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="default.css">
+    <title>Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo-and-title">
+            <a href="https://www.instagram.com/49ersskiandsnowboard/" target="_blank"><img src="logo.jpg" alt="logo"></a>
+            <h1>UNC Charlotte Ski & Snowboard Club</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Calendar</a>
+            <a href="join.html">Join</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <img src="gallery-image-1.jpg" alt="image 1" onclick="showImage(0)">
+            <img src="gallery-image-2.jpg" alt="image 2" onclick="showImage(1)">
+            <img src="gallery-image-3.jpg" alt="image 3" onclick="showImage(2)">
+            <img src="gallery-image-4.jpg" alt="image 4" onclick="showImage(3)">
+            <img src="gallery-image-5.jpg" alt="image 5" onclick="showImage(4)">
+            <img src="gallery-image-6.jpg" alt="image 6" onclick="showImage(5)">
+            <img src="gallery-image-7.jpg" alt="image 7" onclick="showImage(6)">
+            <img src="gallery-image-8.jpg" alt="image 8" onclick="showImage(7)">
+            <img src="gallery-image-9.jpg" alt="image 9" onclick="showImage(8)">
+            <img src="gallery-image-10.jpg" alt="image 10" onclick="showImage(9)">
+            <img src="gallery-image-11.jpg" alt="image 11" onclick="showImage(10)">
+            <img src="gallery-image-12.jpg" alt="image 12" onclick="showImage(11)">
+            <img src="gallery-image-13.jpg" alt="image 13" onclick="showImage(12)">
+            <img src="gallery-image-14.jpg" alt="image 14" onclick="showImage(13)">
+            <img src="gallery-image-15.jpg" alt="image 15" onclick="showImage(14)">
+            <img src="gallery-image-16.jpg" alt="image 16" onclick="showImage(15)">
+            <img src="gallery-image-17.jpg" alt="image 17" onclick="showImage(16)">
+            <img src="gallery-image-18.jpg" alt="image 18" onclick="showImage(17)">
+        </section>
+
+        <section id="modal" class="modal" onclick="closeImage()">
+            <span class="close" onclick="closeImage()">&times;</span>
+            <span class="prev" onclick="prevImage(event)">&#10094;</span>
+            <span class="next" onclick="nextImage(event)">&#10095;</span>
+            <img class="modal-content" id="fullImage">
+        </section>
+    </main>
+    <footer>
+        <p>Page Built By: <a href="/butlerdesigns.co/butlerdesigns.html" target="_blank">Butler Designs</a> &copy 2024, <i>Certified in <a href="https://www.freecodecamp.org/certification/jakebtlr/responsive-web-design" target="_blank">Responsive Web Design</a></i></p>
+    </footer>
+    <script src="galleryScript.js"></script>
+</body>
+</html>
