@@ -149,3 +149,75 @@ footer p {
 .next {
     right: 10px;
 }
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #222222;
+    color: #dddddd;
+}
+
+.dark-mode nav a {
+    color: #bbbbbb;
+}
+
+.dark-mode nav a:hover {
+    color: #888888;
+}
+
+.dark-mode footer a {
+    color: #aabbcc;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3 {
+    color: #ffffff;
+}
+
+/* Toggle button styles */
+button#themeToggleBtn {
+    background-color: #4A6D7C;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button#themeToggleBtn:hover {
+    background-color: #62929E;
+    transform: scale(1.05);
+}
+
+button#themeToggleBtn:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode button#themeToggleBtn {
+    background-color: #888888;
+    color: black;
+}
+
+.dark-mode button#themeToggleBtn:hover {
+    background-color: #aaaaaa;
+}
+
+/* Countdown Timer Styles */
+#countdown {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#countdown h2 {
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-size: 28px;
+    color: #4A6D7C;
+}
