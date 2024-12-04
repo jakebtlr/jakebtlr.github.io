@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const eventDate = new Date("2025-01-05T00:00:00"); // Example date
+    const eventDate = new Date("2025-01-05T00:00:00"); 
     const timer = document.getElementById("timer");
+
+    let interval; 
 
     function updateCountdown() {
         const now = new Date();
@@ -8,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (timeRemaining <= 0) {
             timer.textContent = "The event has started!";
-            clearInterval(interval);
+            clearInterval(interval); 
             return;
         }
 
@@ -20,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
         timer.textContent = `${days} Days ${hours} Hours ${minutes} Minutes ${seconds} Seconds`;
     }
 
-    // Initial call and interval setup
     updateCountdown();
-    const interval = setInterval(updateCountdown, 1000);
+    interval = setInterval(updateCountdown, 1000);
 });
